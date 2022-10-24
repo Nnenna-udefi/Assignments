@@ -1,0 +1,153 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: white;
+  font-family: 'Poppins', sans-serif;
+  
+}
+body{
+  margin: 2rem auto
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav ul{
+  display: flex;
+  align-content: center
+  
+}
+nav li{
+  list-style: none;
+  margin-left: 2rem;
+  margin-top: .5rem
+
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+a:hover{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 1rem 2rem;
+  padding:0
+  
+}
+header{
+  background-image: url("https://www.parkersoftware.com/wp-content/uploads/2020/10/pankaj-patel-_SgRNwAVNKw-unsplash-scaled.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 10rem 0 5rem;
+  text-align: center;
+  opacity: 0.5
+  width: 100%;
+/*   height: 100%; */
+  opacity: 0.8;
+
+    
+}
+.about{
+  text-align: center;
+  margin: 2rem;
+  padding: 3rem 10rem;
+  font-size: 1.2rem
+  color: blue
+}
+.contact{
+  display: flex;
+}
+.contact img{
+  width: 400px;
+   filter: grayscale(100%);
+}
+.contact-get{
+  padding: 2rem;
+/*   width: 100%; */
+}
+.contact-get h1{
+margin-bottom: 1rem;
+}
+.Email{
+  display: flex;
+  padding: 1rem 0;
+}
+.contact-p{
+  padding: 1rem 0;
+}
+.contact-msg{
+  background-color: #2351DC;
+  padding: 5rem 2rem;
+  width: 100%;
+}
+.Email-p{
+  color: #737373;
+  font-size: 12px;
+}
+.contact-msg h3{
+  color: rgba(255, 255, 255, 0.7);
+}
+.contact-msg h2{
+  color: #fff;
+}
+input{
+  background-color: none;
+  width: 70%;
+  padding: .5rem;
+  margin: 1rem 0;
+  border: 0.6px solid #FFFFFF
+}
+textarea{
+  border: 0.6px solid #FFFFFF;
+  width: 70%; 
+  padding: .5rem;
+}
+.contact-btn{
+  color: #2351DC;
+  border: none;
+  padding: .7rem 1.5rem;
+  border-radius: 7px;
+  background-color: #fff;
+  margin-top: 1rem;
+  font-weight: 900;
+}
+.service-page{
+    display: flex;
+ 
+  }
+  .services{
+    margin: 2rem;
+    font-size: 1.2rem;
+  }
+  .service-block{
+    margin-right: 2rem;
+    width: 33%
+  }
+.project{
+    margin: 2rem;
+    font-size: 1.2rem;
+  }
+.project-list li{
+  margin-left: 2rem;
+  text-transform: uppercase;
+  color:#5a5858
+}
+.project-btn{
+  background-color: none;
+  padding: 1.5rem 2rem ;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color:#2351DC;
+  font-weight: bold;
+}
+footer{
+  text-align: center;
+  padding: 2rem;
+}
