@@ -5,30 +5,35 @@ html, body {
   font-family: 'Lexend Deca', sans-serif;
 }
 main{
-  display: flex;
+  display: grid;
   color: hsl(0, 0%, 95%);
   margin: 5rem auto 0;
   width: 900px;
   border-radius: 10px;
-  
+}
+.sedan{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 2rem 3rem;
+  background: rgb(178,34,34)
+}
+.suv{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding: 2rem 3rem;
+  background: rgb(85,107,47)
+}
+.luxury{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  padding: 2rem 3rem;
+  background: rgb(47,79,79)
 }
 p{
   color: hsla(0, 0%, 100%, 0.75);
 }
 h1{
   font-family: 'Big Shoulders Display', cursive;
-}
-.sedan{
-  background-color: hsl(31, 77%, 52%);
-  padding: 2rem 3rem;
-}
-.suv{
-  background-color: hsl(184, 100%, 22%);
-  padding: 2rem 3rem;
-}
-.luxury{
-  background-color: hsl(179, 100%, 13%);
-  padding: 2rem 3rem;
 }
 button{
   border: 1px solid white;
@@ -38,9 +43,6 @@ button{
   margin-top: 3rem;
   border-radius: 25px;
   cursor: pointer;
-}
-footer{
-  margin-top: 2rem;
 }
 button:hover{
   font-weight: bold;
